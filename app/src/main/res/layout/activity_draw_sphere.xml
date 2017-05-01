@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.mingc.ee7350_algorithm_project.views.SphereView
+        android:id="@+id/sphere_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        custom:isDisk="true"
+        android:background="@color/White"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The displaying speed is :"
+            android:textSize="@dimen/standard_text_size"
+            />
+
+        <TextView
+            android:id="@+id/square_activity_speed_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/standard_text_size"/>
+
+    </LinearLayout>
+
+
+    <SeekBar
+        android:id="@+id/square_activity_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="100sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/display_activity_drawPoint_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/draw_points"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/display_activity_drawEdge_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="@string/draw_edges"
+            />
+        <Button
+            android:id="@+id/display_activity_color_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="@string/color"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/display_activity_toResultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

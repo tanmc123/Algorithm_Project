@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/set_item_numOfPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/number_of_points"
+        android:textSize="@dimen/standard_text_size"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_of_topology"
+        android:textSize="@dimen/standard_text_size"
+        android:layout_marginTop="@dimen/small_top_margin"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/set_item_type_square_radioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/square"
+            android:textSize="@dimen/choose_btn_size"
+            android:onClick="onTopologyTypeClicked"
+            />
+        <RadioButton
+            android:id="@+id/set_item_type_circle_radioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/circle"
+            android:textSize="@dimen/choose_btn_size"
+            android:layout_marginLeft="@dimen/small_left_margin"
+            android:onClick="onTopologyTypeClicked"
+            />
+        <RadioButton
+            android:id="@+id/set_item_type_sphere_radioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sphere"
+            android:textSize="@dimen/choose_btn_size"
+            android:layout_marginLeft="@dimen/small_left_margin"
+            android:onClick="onTopologyTypeClicked"
+            />
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/set_item_avgDegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/avg_degree"
+        android:textSize="@dimen/standard_text_size"
+        android:layout_marginTop="@dimen/small_top_margin"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mingc.ee7350_algorithm_project.MainActivity">
+
+    <!--Container for user setting-->
+    <LinearLayout
+        android:id="@+id/main_user_data_Container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        />
+
+    <!--Put the bench mark selection button-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2"
+        android:stretchColumns="0,1,2"
+        >
+
+        <TableRow>
+            <Button
+                android:id="@+id/main_bench_mark1_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 1"
+
+                />
+
+            <Button
+                android:id="@+id/main_bench_mark2_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 2"
+                />
+            <Button
+                android:id="@+id/main_bench_mark3_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 3"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/main_bench_mark4_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 4"
+
+                />
+
+            <Button
+                android:id="@+id/main_bench_mark5_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 5"
+                />
+            <Button
+                android:id="@+id/main_bench_mark6_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 6"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/main_bench_mark7_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 7"
+
+                />
+
+            <Button
+                android:id="@+id/main_bench_mark8_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 8"
+                />
+            <Button
+                android:id="@+id/main_bench_mark9_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 9"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/main_bench_mark10_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="BenchMark 10"
+                />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/main_draw_square_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/draw"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/main_walk_through_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Walk Through"/>
+
+        <Button
+            android:id="@+id/main_set_parameters_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/set_parameters"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

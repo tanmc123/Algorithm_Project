@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SqaureView">
+        <attr name="isCreated" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="DiskView">
+        <attr name="isDisk" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FigureView">
+
+    </declare-styleable>
+
+    <declare-styleable name="SphereView">
+
+    </declare-styleable>
+
+
+</resources>

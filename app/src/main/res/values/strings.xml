@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EE7350_Algorithm_Project</string>
+    <string name="points">How many number of Points you want</string>
+    <string name="draw_square">Draw Sqaure</string>
+    <string name="Test">Test</string>
+    <string name="number_of_points">Number of Points: </string>
+    <string name="square">Square</string>
+    <string name="circle">Circle</string>
+    <string name="sphere">Sphere</string>
+    <string name="type_of_topology">Type of topology: </string>
+    <string name="avg_degree">Average Degree:</string>
+    <string name="action_save">save</string>
+    <string name="set_parameters">Self-Defining</string>
+    <string name="draw">Draw</string>
+    <string name="draw_points">Draw Points</string>
+    <string name="draw_edges">Draw Edges</string>
+    <string name="color">Color</string>
+    <string name="result">Show Detail Result</string>
+    <string name="color_1">Color 1</string>
+    <string name="color_2">Color 2</string>
+    <string name="bipartite_edges">Edges</string>
+    <string name="backbone">Backbone</string>
+    <string name="bipartite_points">Bipartite Points</string>
+    <string name="backbone_edges">BackBone Edges</string>
+    <string name="color_3">Color 3</string>
+    <string name="color_4">Color 4</string>
+    <string name="of_vertices"># of vertices : </string>
+    <string name="of_edges"># of edges : </string>
+    <string name="of_max_degree"># of max Degree:</string>
+    <string name="of_min_degree"># of min Degree:</string>
+    <string name="next_step">Next Step</string>
+    <string name="reset">reset</string>
+    <string name="degree_when_delete">Degree When Delete: </string>
+</resources>
